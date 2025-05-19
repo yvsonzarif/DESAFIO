@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;  /* Fundo escuro */
+  color: #f5f5f5;             /* Texto claro para contraste */
+  margin: 0;
+  padding: 20px;
+}
+
+/* Cabeçalho da loja */
+header {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* Container do produto */
+.produto {
+  display: flex;  /* Alinha imagem e descrição lado a lado */
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Imagem do produto */
+.produto img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+/* Informações do produto */
+.info-produto {
+  flex: 1;
+}
+
+/* Título dentro do produto */
+.info-produto h2 {
+  color: #ff4081;
+  margin-bottom: 10px;
+}
+
+/* Lista de benefícios */
+ul {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+/* Preço do produto */
+.preco {
+  font-size: 1.5rem;
+  color: #00e676;
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* Botão de compra */
+button {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;  /* Suaviza a troca de cor */
+}
+
+/* Efeito hover no botão */
+button:hover {
+  background-color: #e91e63;
+}
+
+/* Rodapé */
+footer {
+  background-color: #1f1f1f;
+  padding: 15px;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
