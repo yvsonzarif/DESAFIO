@@ -1,0 +1,81 @@
+
+
+/* Estilo base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #007BFF;
+  border-bottom: 2px solid #007BFF;
+}
+
+/* Seções gerais */
+section {
+  padding: 2rem;
+  margin: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/* SOBRE - layout flex com imagem à esquerda */
+.sobre-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+#sobre img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+/* PROJETOS com flex (poderia ser em linha se quiser) */
+.lista-projetos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 1.2rem;
+}
+
+/* CONTATO ícones */
+#contato img {
+  width: 40px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  transition: transform 0.3s;
+}
+
+#contato img:hover {
+  transform: scale(1.1);
+}
