@@ -4,13 +4,13 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #121212;  /* Fundo escuro */
-  color: #f5f5f5;             /* Texto claro para contraste */
+  background-color: #121212;  
+  color: #f5f5f5;             
   margin: 0;
   padding: 20px;
 }
 
-/* Cabeçalho da loja */
+
 header {
   background-color: #1f1f1f;
   padding: 20px;
@@ -19,9 +19,9 @@ header {
   margin-bottom: 30px;
 }
 
-/* Container do produto */
+
 .produto {
-  display: flex;  /* Alinha imagem e descrição lado a lado */
+  display: flex;  
   background-color: #222;
   padding: 20px;
   border-radius: 10px;
@@ -29,7 +29,7 @@ header {
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-/* Imagem do produto */
+
 .produto img {
   width: 300px;
   height: auto;
@@ -37,25 +37,25 @@ header {
   margin-right: 20px;
 }
 
-/* Informações do produto */
+
 .info-produto {
   flex: 1;
 }
 
-/* Título dentro do produto */
+
 .info-produto h2 {
   color: #ff4081;
   margin-bottom: 10px;
 }
 
-/* Lista de benefícios */
+
 ul {
   margin-top: 10px;
   margin-bottom: 15px;
   padding-left: 20px;
 }
 
-/* Preço do produto */
+
 .preco {
   font-size: 1.5rem;
   color: #00e676;
@@ -63,7 +63,7 @@ ul {
   display: block;
 }
 
-/* Botão de compra */
+
 button {
   background-color: #ff4081;
   color: white;
@@ -71,15 +71,15 @@ button {
   padding: 12px 25px;
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease;  /* Suaviza a troca de cor */
+  transition: background-color 0.3s ease;  
 }
 
-/* Efeito hover no botão */
+
 button:hover {
   background-color: #e91e63;
 }
 
-/* Rodapé */
+
 footer {
   background-color: #1f1f1f;
   padding: 15px;

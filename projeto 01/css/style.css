@@ -27,7 +27,7 @@ section {
   box-sizing: border-box;
 }
 
-/* Sobre */
+
 #sobre img {
  
   display: flex;
@@ -38,7 +38,7 @@ section {
   object-fit: cover;
 }
 
-/* Projetos */
+
 #projetos ul {
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@ section {
   list-style: none;
 }
 
-/* Contato */
+
 #contato img {
   width: 24px;
   margin-right: 10px;
